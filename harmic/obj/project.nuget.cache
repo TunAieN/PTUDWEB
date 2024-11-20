@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u6EIEv9tc0/r7f2rl7rV8gS9rSK0JnarZ+Gy2Ssx0c7vkP2YQ2Kd1ba4paygot08OdB63Dk2pJRQZfCCw6TKdA==",
+  "dgSpecHash": "rUVJHwcWefc8w7Fypi0fA14c8qsbiEhmnBMpoWISOg/9v4UCe0bS6KFWbCUDXD1LikJmHjLhufL9KE/gj/E6Lw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\84335\\OneDrive\\Máy tính\\learnC\\harmic\\harmic\\harmic.csproj",
+  "projectFilePath": "E:\\THWEB\\harmic\\harmic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\84335\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\84335\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
