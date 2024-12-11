@@ -27,7 +27,7 @@
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="~/assets/css/style.css">
-
+    <link href="~/assets/toastr/toastr.css" rel="stylesheet" />
     <script src="~/admin/plugins/jquery/jquery.min.js"></script>
     <!-- jQuery UI 1.11.4 -->
     <script src="~/admin/plugins/jquery-ui/jquery-ui.min.js"></script>
@@ -657,7 +657,7 @@
         <!-- Scroll To Top End Here -->
 
     </div>
-
+    @RenderSection("Scripts", required: false)
     <!-- Global Vendor, plugins JS -->
     <!-- JS Files
     ============================================ -->
@@ -679,6 +679,7 @@
 
     <!--Main JS (Common Activation Codes)-->
     <script src="~/assets/js/main.js"></script>
+    <script src="~/assets/toastr/toastr.min.js" ></script>
 
 </body>
 
