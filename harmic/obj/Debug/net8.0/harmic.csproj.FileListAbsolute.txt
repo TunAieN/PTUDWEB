@@ -1124,3 +1124,4 @@ E:\THWEB\harmic\bin\Debug\net8.0\refs\Microsoft.Extensions.Caching.Abstractions.
 E:\THWEB\harmic\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.dll
 E:\THWEB\harmic\bin\Debug\net8.0\refs\Microsoft.Extensions.Primitives.dll
 E:\THWEB\harmic\bin\Debug\net8.0\refs\System.Diagnostics.DiagnosticSource.dll
+E:\THWEB\harmic\bin\Debug\net8.0\BCrypt.Net-Next.dll

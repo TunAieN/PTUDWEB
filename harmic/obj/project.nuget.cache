@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "yFDE5IQTll45+7ky3ltfzDx8qO/4V62VhVz7T0B/6S2Lysv1he6JcuoH3gc2sH+K1KY9164ZwPyKy/7qSu7sbg==",
+  "dgSpecHash": "2MIHx9qQIiH6VeLegauDY03kQe7k4ilHnU/YcmkM5z0qbgoFFSl/My2ALtyQNYwZCQcB4blykEzGRwX322ROdw==",
   "success": true,
   "projectFilePath": "E:\\THWEB\\harmic\\harmic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\84335\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\84335\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\84335\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\84335\\.nuget\\packages\\elfinder.netcore\\1.4.0\\elfinder.netcore.1.4.0.nupkg.sha512",
     "C:\\Users\\84335\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\84335\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -54,45 +54,17 @@
                             <table class="table table-hover text-nowrap">
                                 <thead>
                                     <tr>
-                                        <th>
-                                            @Html.DisplayNameFor(model => model.Title)
-                                        </th>
-                                        <th>
-                                            @Html.DisplayNameFor(model => model.Alias)
-                                        </th>
-                                        <th>
-                                            @Html.DisplayNameFor(model => model.Description)
-                                        </th>
-                                        <th>
-                                            @Html.DisplayNameFor(model => model.Detail)
-                                        </th>
-                                        <th>
-                                            @Html.DisplayNameFor(model => model.Image)
-                                        </th>
-                                        <th>
-                                            @Html.DisplayNameFor(model => model.Price)
-                                        </th>
-                                        <th>
-                                            @Html.DisplayNameFor(model => model.PriceSale)
-                                        </th>
-                                        
-                                        <th>
-                                            @Html.DisplayNameFor(model => model.IsNew)
-                                        </th>
-                                        <th>
-                                            @Html.DisplayNameFor(model => model.IsBestSeller)
-                                        </th>
-                                        <th>
-                                            @Html.DisplayNameFor(model => model.UnitInStock)
-                                        </th>
-                                        <th>
-                                            @Html.DisplayNameFor(model => model.IsActive)
-                                        </th>
-                                       
-                                        <th>
-                                            @Html.DisplayNameFor(model => model.CategoryProduct)
-                                        </th>
-                                        <th></th>
+                                        <th>STT</th>
+                                        <th>Tiêu đề</th>
+                                        <th>Alias</th>
+                                        <th>Mô tả</th>
+                                        <th>Số Lượng</th>
+                                        <th>Ảnh</th>
+                                        <th>Giá</th>
+                                        <th>Giam Giá</th>
+                                        <th>SP Mới</th>
+                                        <th>SP Bán Chạy</th>
+                                        <th>Hiện</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -102,6 +74,7 @@
                                     @foreach (var item in Model)
                                     {
                                         <tr>
+                                            <td>@(i++)</td>
                                             <td>
                                                 @Html.DisplayFor(modelItem => item.Title)
                                             </td>
@@ -112,7 +85,7 @@
                                                 @Html.DisplayFor(modelItem => item.Description)
                                             </td>
                                             <td>
-                                                @Html.DisplayFor(modelItem => item.Detail)
+                                                @Html.DisplayFor(modelItem => item.Quantity)
                                             </td>
                                             <td>
                                                 <img src=" @Html.DisplayFor(modelItem => item.Image)" width="50" hight="50" alt="Alternate Text" />
@@ -130,16 +103,12 @@
                                             <td>
                                                 @Html.DisplayFor(modelItem => item.IsBestSeller)
                                             </td>
-                                            <td>
-                                                @Html.DisplayFor(modelItem => item.UnitInStock)
-                                            </td>
+                                            
                                             <td>
                                                 @Html.DisplayFor(modelItem => item.IsActive)
                                             </td>
                                             
-                                            <td>
-                                                @Html.DisplayFor(modelItem => item.CategoryProduct.CategoryProductId)
-                                            </td>
+                                            
                                             <td>
                                                 <a asp-action="Edit" asp-route-id="@item.ProductId" class="btn btn-primary">Sửa</a> |
                                                 <a asp-action="Details" asp-route-id="@item.ProductId" class="btn btn-info">Chi tiết</a>
